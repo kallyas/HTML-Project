@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo h3{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.nav {
+    position: relative;
+    width: auto;
+    height: 70px;
+}
+
+.nav ul {
+    padding:0;  
+    background:black;  
+    font-family:Arial, sans serif;  
+    font-size:12px;  
+    text-transform:uppercase;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    display:block;  
+    padding:10px;
+    text-decoration: none;
+    color: white;
+}
+.block {
+    float: left;
+    width: 20%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 15px;
+}
+
+.block img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.box-1 {
+    width: 70%;
+    border: 5px solid red;
+}
+
+.box-1 img {
+    float: right;
+}
+
+.round {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
